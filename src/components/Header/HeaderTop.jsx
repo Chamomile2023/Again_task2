@@ -24,7 +24,7 @@ const HeaderTop = () => {
                 </li>
                 <li className="header_top__item">
                   <NavLink to="/" className="header_top__link">
-                    <i class="fa-solid fa-clock header_top__link--icon header_top__additional"></i>
+                    <i className="fa-solid fa-clock header_top__link--icon header_top__additional"></i>
                     All week 24/7
                   </NavLink>
                 </li>
@@ -32,14 +32,12 @@ const HeaderTop = () => {
             </div>
             <div className="header_top__right">
               <a href="#">
-                <i class="fa-brands fa-facebook header_top__right--icon"></i>
+                <i className="fa-brands fa-facebook header_top__right--icon"></i>
               </a>
               <a href="#">
-                {" "}
                 <i className="fa-brands fa-instagram header_top__right--icon"></i>
               </a>
               <a href="#">
-                {" "}
                 <i className="fa-brands fa-twitter header_top__right--icon"></i>
               </a>
               <a href="#">

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import './Header.scss'
 import { NavLink } from 'react-router-dom'
+import { ToggleContext } from "../Context/Toggle/ToggleContext";
 
 const HeaderBottom = () => {
+  const { show, setShow } = useContext(ToggleContext)
   return (
     <>
       <div className="header_bottom">
@@ -11,8 +13,8 @@ const HeaderBottom = () => {
             <div className="header_bottom__logo">
               <NavLink to="/" className="header_bottom--logo">MiSto</NavLink>
             </div>
-            <div className="header_bottom__close">
-              <i class="fa-solid fa-bars header_bottom__close--bar"></i>
+            <div className="header_bottom__close" onClick={() => setShow(!show)}>
+              <i className="fa-solid fa-bars header_bottom__close--bar"></i>
             </div>
             <div className="header_bottom__ul">
               <ul className="header_bottom__list">

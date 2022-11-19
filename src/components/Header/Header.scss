@@ -290,17 +290,25 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: red;
         }
         &__close--bar{
             display: block;
-            margin-left: auto;
+            font-size: 20px;
         }
-        &__list{
+        &__ul{
             display: none;
         }
         &__icons{
             display: none;
         }
+    }
+}
+@media screen and (max-width: 412px) {
+    .container{
+        width: 100%;
+        max-width: 392px;
+        padding: 0 10px;
+    }
+    .header_bottom{
     }
 }
