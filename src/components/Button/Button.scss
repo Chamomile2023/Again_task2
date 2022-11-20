@@ -1,0 +1,14 @@
+.button{
+    padding: 12px 24px 4px 24px;
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Spartan';
+    font-weight: 600;
+    &:hover{
+        background-color: #F8F8F8;
+    }
+}
