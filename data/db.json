@@ -2,97 +2,97 @@
     "data":[
         {
             "id": 1,
-            "img": "/assets/one.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=25&rpt=simage&img_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg&lr=10335",
             "content": "Women's tracksuit Q109",
             "cost": "$ 38.00"
         },
         {
             "id": 2,
-            "img": "../assets/two.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=25&rpt=simage&img_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg&lr=10335&rlt_url=https%3A%2F%2Fa.lmcdn.ru%2Fpi%2Fimg600x866%2FM%2FP%2FMP002XW0BYJK_16595952_2_v1_2x.jpg&ogl_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg",
             "content": "Cluse La Boheme Rose Gold",
             "cost": "$ 30.00"
         },
         {
             "id": 3,
-            "img": "../assets/three.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=25&rpt=simage&img_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg&lr=10335&rlt_url=https%3A%2F%2Fsofiarafinad.ru%2Fimage%2Fcache%2Fcatalog%2Fp-000131%2Fart000131-03-20_1-1500x1500.jpg&ogl_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg",
             "content": "Mercury Tee",
             "cost": "$ 58.00"
         },
         {
             "id": 4,
-            "img": "../assets/four.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=25&rpt=simage&img_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg&lr=10335&rlt_url=https%3A%2F%2Fa.lmcdn.ru%2Fpi%2Fimg600x866%2FR%2FT%2FRTLAAP773802_15968744_1_v1_2x.jpg&ogl_url=http%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F85%2F91%2F0a85917ddd1af0089bd42db136e3270c.jpg",
             "content": "Skin Sweatpans",
             "cost": "$ 89.00"
         },
         {
             "id": 5,
-            "img": "../assets/five.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=22&rpt=simage&img_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2F-lXccnY8dwky5jsVo44P7Q%2F318r318%2Fd%2F113063-0.jpg&lr=10335&rlt_url=https%3A%2F%2Fru.all.biz%2Fimg%2Fru%2Fcatalog%2F8270686.jpeg&ogl_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2F-lXccnY8dwky5jsVo44P7Q%2F318r318%2Fd%2F113063-0.jpg",
             "content": "Short Sleeved Hoodie",
             "cost": "$ 78.00"
         },
         {
             "id": 6,
-            "img":"../assets/six.jpg",
+            "img":"https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=23&rpt=simage&img_url=http%3A%2F%2Fdelaseptariani.files.wordpress.com%2F2016%2F10%2Ffoto2bfashion2bbusana2bmuslim1.png%3Fw%3D244%26h%3D320&lr=10335&rlt_url=https%3A%2F%2Fi.pinimg.com%2F236x%2Fd4%2Fd2%2Fd1%2Fd4d2d10305d08ac56ecd963991338968.jpg%3Fnii%3Dt&ogl_url=http%3A%2F%2Fdelaseptariani.files.wordpress.com%2F2016%2F10%2Ffoto2bfashion2bbusana2bmuslim1.png%3Fw%3D244%26h%3D320",
             "content": "Ridley High Waist",
             "cost": "$ 50.00"
         },
         {
             "id": 7,
-            "img": "../assets/seven.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=23&rpt=simage&img_url=http%3A%2F%2Fdelaseptariani.files.wordpress.com%2F2016%2F10%2Ffoto2bfashion2bbusana2bmuslim1.png%3Fw%3D244%26h%3D320&lr=10335&rlt_url=https%3A%2F%2Fi.pinimg.com%2F736x%2Fcb%2F6e%2F78%2Fcb6e785639566d22e52e5729948f12c4.jpg&ogl_url=http%3A%2F%2Fdelaseptariani.files.wordpress.com%2F2016%2F10%2Ffoto2bfashion2bbusana2bmuslim1.png%3Fw%3D244%26h%3D320",
             "content": "Cream women pants",
             "cost": "$ 65.05"
         },
         {
             "id": 8,
-            "img": "../assets/eight.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=23&rpt=simage&img_url=http%3A%2F%2Fdelaseptariani.files.wordpress.com%2F2016%2F10%2Ffoto2bfashion2bbusana2bmuslim1.png%3Fw%3D244%26h%3D320&lr=10335&rlt_url=https%3A%2F%2F2.bp.blogspot.com%2F-io6s7W8M1n8%2FW2gGv4R7hJI%2FAAAAAAAAzxY%2FEYCGg-xuFZ0897V-Cr96ZpfDrhsajpHTQCLcBGAs%2Fs1600%2FORLIN%252Bk.jpg&ogl_url=http%3A%2F%2Fdelaseptariani.files.wordpress.com%2F2016%2F10%2Ffoto2bfashion2bbusana2bmuslim1.png%3Fw%3D244%26h%3D320",
             "content": "Simple Skin T-shirt",
             "cost": "$ 36.22"
         },
         {
             "id": 9,
-            "img": "../assets/nine.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&p=1&pos=62&rpt=simage&img_url=http%3A%2F%2Fcdn.qiosk.ru%2F14669913_2.jpg&lr=10335&rlt_url=https%3A%2F%2Fgorillawear.hu%2Finteg_pictures%2Fbig%2F5826.jpg&ogl_url=http%3A%2F%2Fcdn.qiosk.ru%2F14669913_2.jpg",
             "content": "Striped Sweatshirt",
             "cost": "$ 78.25"
         },
         {
             "id": 10,
-            "img": "../assets/ten.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=20&rpt=simage&img_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png&lr=10335&rlt_url=https%3A%2F%2Fwww.norfin.info%2Fwp-content%2Fuploads%2F2013%2F08%2F722-Norfin-Hunting-Bear.jpg&ogl_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png",
             "content": "Men pants",
             "cost": "$ 58.25"
         },
         {
             "id": 11,
-            "img": "../assets/eleven.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=20&rpt=simage&img_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png&lr=10335&rlt_url=http%3A%2F%2Ffishing-24.ru%2Fimage%2Fcache%2Fcatalog%2Fnorfin%2Fclothes%2F461479329-norfinkurtka-flisovaya-norfin-onyxflisovaya-odegda-600x600.jpg&ogl_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png",
             "content": "Men Knit Sweater",
             "cost": "$ 66.00"
         },
         {
             "id": 12,
-            "img": "../assets/twlelve.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=20&rpt=simage&img_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png&lr=10335&rlt_url=https%3A%2F%2Fwww.mil-dot.ru%2Fupload%2Fiblock%2F6bd%2F6bdccf70dfe94be1247c14514952ca95.jpeg&ogl_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png",
             "content": "Dusk Pom Beanie",
             "cost": "$ 44.00"
         },
         {
             "id": 13,
-            "img": "../assets/thirteen.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=20&rpt=simage&img_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png&lr=10335&rlt_url=https%3A%2F%2Fn3b.ru%2Fimage%2Fcache%2Fcatalog%2Fobrabotannie02%2FKK__8718w-1000x1000.jpg&ogl_url=http%3A%2F%2Fguns.ua%2Fuploads%2Fshop%2Fproducts%2F1487182460_20.png",
             "content": "Denim Trucker Jacket",
             "cost": "$ 88.00"
         },
         {
             "id": 14,
-            "img": "../assets/fourteen.jpg",
+            "img": "https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=0&rpt=simage&img_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2FhwRi3uHhe8w8hEklI21Liw%2F318r318%2Fd%2Fafefa7fe37c7d866ebbd18d0b443ceae.png&lr=10335&rlt_url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-altay%2F1868686%2F2a00000169e21f8d680690cb739fd411a115%2FXXL&ogl_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2FhwRi3uHhe8w8hEklI21Liw%2F318r318%2Fd%2Fafefa7fe37c7d866ebbd18d0b443ceae.png",
             "content": "Denim Vest",
             "cost": "$ 46.00"
         },
         {
             "id": 15,
-            "img":"../assets/fifteen.jpg",
+            "img":"https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=0&rpt=simage&img_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2FhwRi3uHhe8w8hEklI21Liw%2F318r318%2Fd%2Fafefa7fe37c7d866ebbd18d0b443ceae.png&lr=10335&rlt_url=http%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0021%2F0422%2F9957%2Fproducts%2FIMG_5542_1200x1200.png%3Fv%3D1601578352&ogl_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2FhwRi3uHhe8w8hEklI21Liw%2F318r318%2Fd%2Fafefa7fe37c7d866ebbd18d0b443ceae.png",
             "content": "Leather White Trainers",
             "cost": "$ 25.00"
         },
         {
             "id": 16,
-            "img":"../assets/sixteen.jpg",
+            "img":"https://yandex.com/images/search?text=ecommerse%20for%20clothes&isize=eq&iw=244&ih=318&from=tabbar&pos=0&rpt=simage&img_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2FhwRi3uHhe8w8hEklI21Liw%2F318r318%2Fd%2Fafefa7fe37c7d866ebbd18d0b443ceae.png&lr=10335&rlt_url=https%3A%2F%2Fstatic.tildacdn.com%2Ftild3535-3931-4361-b133-336266366236%2F689594_10.jpg&ogl_url=http%3A%2F%2Fsirius-spb.ru%2Fthumb%2F2%2FhwRi3uHhe8w8hEklI21Liw%2F318r318%2Fd%2Fafefa7fe37c7d866ebbd18d0b443ceae.png",
             "content": "Checked Tailored Trousers",
             "cost": "$ 10.00"
         }

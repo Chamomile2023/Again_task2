@@ -16,9 +16,9 @@ const BasicPageMiddle = () => {
     <>
       <div className="basic_middle">
         <div className="container">
-          <h2 className="basic_middle__title">WOMEN'S</h2>
+          <h2 className="basic_middle__title">MEN'S</h2>
           <div className="basic_middle__hero">
-            {data.slice(0, 8).map((card) => {
+            {data.slice(9, 16).map((card) => {
               return <Card card={card} key={card.id} />;
             })}
           </div>
