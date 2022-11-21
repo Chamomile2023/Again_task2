@@ -1,0 +1,29 @@
+.card{
+    width: 255px;
+    height: 400px;
+    align-items: center;
+    font-family: 'Spartan';
+    &--img{
+        width: 255px;
+        height: 318px;
+    }
+    .__title{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #121212;
+        opacity: 0.6;
+    }
+    &__rating{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px 0;
+       &--cost{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 16px;
+        color: #121212;
+       }
+    }
+}
