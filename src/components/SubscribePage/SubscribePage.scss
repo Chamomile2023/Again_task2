@@ -1,0 +1,73 @@
+.subscribe{
+    width: 100%;
+    display: flex;
+    background: linear-gradient(180deg, #F3F2F2 0%, #DCDBDB 100%);
+    &__hero{
+        display: flex;
+    }
+    &__images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__box{
+        width: 520px;
+        height: 350px;
+        background-color: #fff;
+        padding-top: 100px;
+        &--paragraph{
+            font-family: 'Spartan';
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 13px;
+            text-transform: uppercase;
+            color: #121212;
+            opacity: 0.4;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        &--title{
+            text-align: center;
+            font-family: 'Spartan';
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+        &--span{
+            color: rgb(235, 67, 95);
+            }
+        &--input{
+            width: 70%;
+        }
+        &_buttons{
+            width: 520px;
+        }
+        &--email{
+            padding: 22px 90px;
+            background-color: #F8F8F8;
+            border: none;
+            border-radius: 6px;
+            color: #000;
+            opacity: .5;
+            font-size: 15px;
+            margin-left: 23%;
+            &:hover{
+                background-color: #b8b5b5;
+            }
+        }
+        &--btn{
+            padding: 22px 90px;
+            background-color: #000;
+            border-radius: 6px;
+            color: #F3F2F2;
+            font-size: 25px;
+            margin-left: 23%;
+            margin-top: 15px;
+            border: none;
+            &:hover{
+                background-color: rgb(118, 116, 116);
+            }
+        }
+    }
+}

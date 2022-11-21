@@ -3,6 +3,7 @@ import "./BasicPage.scss";
 import BasicPageMiddle from "./BasicPageMiddle";
 import BasicPageTop from "./BasicPageTop";
 import BasicPageMen from "./BasicPageMen";
+import SubscribePage from "../SubscribePage/SubscribePage";
 
 const BasicPage = () => {
   return (
@@ -10,6 +11,7 @@ const BasicPage = () => {
       <BasicPageTop />
       <BasicPageMiddle />
       <BasicPageMen />
+      <SubscribePage />
     </>
   );
 };
