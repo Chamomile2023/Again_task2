@@ -212,6 +212,31 @@
         }
     }
 }
+@media screen and (max-width: 244px){
+    .container{
+        width: 100%;
+        max-width: 224px;
+        padding: 0 10px;
+    }
+    .footer_top{
+        display: flex;
+        justify-content: center;
+        &__input{
+            &--input{
+                padding: 5px 0px 5px 5px;
+            }
+            &--btn{
+                margin-left: 0px;
+            }
+        }
+        &__icons{
+            margin-top: 8px;
+            &--icon{
+                font-size: 15px;
+            }
+        }
+    }
+}
 
 .footer_middle{
     width: 100%;

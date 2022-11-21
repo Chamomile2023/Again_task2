@@ -18,6 +18,8 @@
         top: 0;
         transform: translateX(0);
         transition: 0.3s ease-in-out;
+        z-index: 100;
+        background-color: #fff;
     }
     &__left{
         width: 100%;
@@ -25,7 +27,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 10;
+        z-index: 100;
         background-color: #FFFFFF;
         &--top{
             display: flex;
