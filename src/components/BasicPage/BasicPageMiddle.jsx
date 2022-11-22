@@ -15,7 +15,7 @@ const BasicPageMiddle = () => {
   return (
     <>
       <div className="basic_middle">
-        <div className="container">
+        <div className="containerOne">
           <h2 className="basic_middle__title">WOMEN'S</h2>
           <div className="basic_middle__hero">
             {data.slice(0, 8).map((card) => {

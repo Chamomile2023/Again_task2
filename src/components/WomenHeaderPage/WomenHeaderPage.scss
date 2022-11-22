@@ -1,0 +1,35 @@
+.women_top{
+    width: 100%;
+    display: flex;
+    background-color: #F8F8F8;
+    &__hero{
+        display: flex;
+        flex-direction: column;
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        &--paragraph{
+            font-family: 'Spartan';
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #121212;
+            opacity: 0.6;
+        }
+        &--icon{
+            padding-right: 15px;
+        }
+    }
+    &--title{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        text-transform: uppercase;
+        font-family: 'Spartan';
+        font-size: 30px;
+        line-height: 36px;
+        color: #121212;
+    }
+}

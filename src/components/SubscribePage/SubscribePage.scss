@@ -9,6 +9,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        &--women{
+            margin-bottom: -38px;
+        }
     }
     &__box{
         width: 520px;

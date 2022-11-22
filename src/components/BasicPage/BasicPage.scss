@@ -673,7 +673,7 @@
     &__hero{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         padding: 20px 0;
     }
     &__title{
@@ -693,5 +693,12 @@
             transition: .5s;
             color: #fff;
         }
+    }
+}
+@media screen and (max-width: 1320px){
+    .containerOne{
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 10px;
     }
 }
