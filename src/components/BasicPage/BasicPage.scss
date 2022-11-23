@@ -671,10 +671,12 @@
     margin: 50px 0;
     padding: 15px 0;
     &__hero{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding: 20px 0;
+        gap: 20px;
     }
     &__title{
         display: flex;
@@ -696,7 +698,7 @@
     }
 }
 @media screen and (max-width: 1320px){
-    .containerOne{
+    .container{
         width: 100%;
         max-width: 1300px;
         padding: 0 10px;

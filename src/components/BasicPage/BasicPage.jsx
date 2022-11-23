@@ -11,7 +11,7 @@ const BasicPage = () => {
       <BasicPageTop />
       <BasicPageMiddle />
       <BasicPageMen />
-      <SubscribePage />
+      {/* <SubscribePage /> */}
     </>
   );
 };

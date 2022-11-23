@@ -1,11 +1,15 @@
 import React from "react";
-import './WomenHeaderPage.scss'
+import WomenHeaderCards from "./WomenHeaderCards";
+import "./WomenHeaderPage.scss";
 import WomenHeaderTop from "./WomenHeaderTop";
 
 const WomenHeaderPage = () => {
-    return <>
-        <WomenHeaderTop />
-    </>;
+  return (
+    <>
+      <WomenHeaderTop />
+      <WomenHeaderCards />
+    </>
+  );
 };
 
 export default WomenHeaderPage;

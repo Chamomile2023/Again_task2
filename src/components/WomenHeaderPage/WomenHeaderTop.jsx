@@ -9,7 +9,7 @@ const WomenHeaderTop = () => {
                     <div className="women_top__top">
                         <p className="women_top__top--paragraph">Home Women</p>
                         <p className="women_top__top--paragraph">
-                            <i class="fa-solid fa-share-nodes women_top--icon"></i>
+                            <i className="fa-solid fa-share-nodes women_top--icon"></i>
                             Share
                         </p>
                     </div>

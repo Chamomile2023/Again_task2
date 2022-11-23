@@ -34,10 +34,14 @@
     }
 }
 .women_card{
+    &__hero{
+        background-color: red;
+    }
     &__cards{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         padding: 25px 0;
+        background-color: red;
     }
 }
