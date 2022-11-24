@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./BasicPage.scss";
 import Card from "../Card/Card";
-import { NavLink } from "react-router-dom";
+import "./SeeAll.scss";
 
-const BasicPageMiddle = () => {
+const SeeAll = () => {
   const [data, setData] = useState([]);
   const getData = async () => {
     const request = await fetch("http://localhost:3005/data");
@@ -15,21 +14,17 @@ const BasicPageMiddle = () => {
   }, []);
   return (
     <>
-      <div className="basic_middle">
+      <div className="see_all">
         <div className="container">
-          <h2 className="basic_middle__title">MEN'S</h2>
-          <div className="basic_middle__hero">
-            {data.slice(8, 16).map((card) => {
+          <div className="see_all__hero">
+            {data.map((card) => {
               return <Card card={card} key={card.id} />;
             })}
           </div>
-          <NavLink to="/all">
-            <button className="basic_middle__btn">See all</button>
-          </NavLink>
         </div>
       </div>
     </>
   );
 };
 
-export default BasicPageMiddle;
+export default SeeAll;

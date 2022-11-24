@@ -29,12 +29,12 @@ const Toggle = () => {
                 </NavLink>
               </li>
               <li className="toggle__item">
-                <NavLink to="/" className="toggle__item--links">
+                <NavLink to="/women" className="toggle__item--links">
                   Women
                 </NavLink>
               </li>
               <li className="toggle__item">
-                <NavLink to="/" className="toggle__item--links">
+                <NavLink to="/men" className="toggle__item--links">
                   Men
                 </NavLink>
               </li>

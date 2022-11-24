@@ -1,0 +1,10 @@
+.see_all{
+    width: 100%;
+    &__hero{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 25px 0;
+    }
+}

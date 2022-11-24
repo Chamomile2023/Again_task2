@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./BasicPage.scss";
 import Card from "../Card/Card";
+import { NavLink } from "react-router-dom";
 
 const BasicPageMiddle = () => {
   const [data, setData] = useState([]);
@@ -22,7 +23,9 @@ const BasicPageMiddle = () => {
               return <Card card={card} key={card.id} />;
             })}
           </div>
-          <button className="basic_middle__btn">See all</button>
+          <NavLink to="/all">
+            <button className="basic_middle__btn">See all</button>
+          </NavLink>
         </div>
       </div>
     </>

@@ -19,7 +19,7 @@ const MenPage = () => {
           <div className="women_card__hero">
             <div className="women_card__cards">
               {data.slice(8, 16).map((card) => {
-                return <Card card={card} />;
+                return <Card card={card} key={card.id} />;
               })}
             </div>
           </div>
