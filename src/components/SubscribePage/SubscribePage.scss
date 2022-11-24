@@ -1,75 +1,302 @@
 .subscribe{
     width: 100%;
     display: flex;
-    background: linear-gradient(180deg, #F3F2F2 0%, #DCDBDB 100%);
     &__hero{
-        display: flex;
-    }
-    &__images{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &--women{
-            margin-bottom: -38px;
-        }
-    }
-    &__box{
-        width: 520px;
-        height: 350px;
-        background-color: #fff;
-        padding-top: 100px;
-        &--paragraph{
-            font-family: 'Spartan';
-            font-weight: 600;
-            font-size: 12px;
-            line-height: 13px;
-            text-transform: uppercase;
-            color: #121212;
-            opacity: 0.4;
-            text-align: center;
-            padding-bottom: 15px;
-        }
         &--title{
             text-align: center;
+        }
+    }
+    &__boxes{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    &__box{
+        position: relative;
+        margin: 0 0 100px 0;
+        &--img{
+            width: 350px;
+            height: 276px;
+            padding: 5px;
+        }
+    }
+    &__words{
+        width: 300px;
+        height: 156px;
+        background-color: #fff;
+        padding: 24px 16px;
+        position: absolute;
+        top: 80%;
+        left: 7%;
+        &--title{
             font-family: 'Spartan';
             font-weight: 600;
-            font-size: 30px;
-            line-height: 30px;
-            padding-bottom: 15px;
-        }
-        &--span{
-            color: rgb(235, 67, 95);
-            }
-        &--input{
-            width: 70%;
-        }
-        &_buttons{
-            width: 520px;
-        }
-        &--email{
-            padding: 22px 90px;
-            background-color: #F8F8F8;
-            border: none;
-            border-radius: 6px;
-            color: #000;
-            opacity: .5;
             font-size: 15px;
-            margin-left: 23%;
-            &:hover{
-                background-color: #b8b5b5;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #121212;
+            padding-bottom: 5px;
+        }
+        &--paragraph{
+            font-family: 'Spartan';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #121212;
+            opacity: 0.8;
+        }
+    }
+    
+}
+@media screen and (max-width: 1074px){
+    .container{
+        width: 100%;
+        max-width: 1054px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 430px;
+        &__box{
+            &--img{
+                width: 320px;
+                height: 230px;
+                padding: 5px;
             }
         }
-        &--btn{
-            padding: 22px 90px;
-            background-color: #000;
-            border-radius: 6px;
-            color: #F3F2F2;
-            font-size: 25px;
-            margin-left: 23%;
-            margin-top: 15px;
-            border: none;
-            &:hover{
-                background-color: rgb(118, 116, 116);
+        &__words{
+            width: 280px;
+            height: 136px;
+            background-color: #fff;
+            padding: 24px 16px;
+            position: absolute;
+            top: 80%;
+            left: 6%;
+        }
+    }
+}
+@media screen and (max-width: 976px){
+    .container{
+        width: 100%;
+        max-width: 956px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 400px;
+        &__box{
+            &--img{
+                width: 290px;
+                height: 210px;
+                padding: 5px;
+            }
+        }
+        &__words{
+            width: 260px;
+            height: 126px;
+            background-color: #fff;
+            padding: 24px 16px;
+            position: absolute;
+            top: 80%;
+            left: 6%;
+        }
+    }
+}
+@media screen and (max-width: 880px) {
+    .container{
+        width: 100%;
+        max-width: 860px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 400px;
+        &__box{
+            &--img{
+                width: 260px;
+                height: 210px;
+                padding: 5px;
+            }
+        }
+        &__words{
+            width: 220px;
+            height: 140px;
+            background-color: #fff;
+            padding: 24px 16px;
+            position: absolute;
+            top: 80%;
+            left: 6%;  
+            &--title{
+                font-size: 13px;
+                line-height: 22px;
+            }
+            &--paragraph{
+                font-size: 12px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 792px) {
+    .container{
+        width: 100%;
+        max-width: 772px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 360px;
+        &__box{
+            &--img{
+                width: 210px;
+                height: 180px;
+                padding: 5px;
+            }
+        }
+        &__words{
+            width: 180px;
+            height: 140px;
+            background-color: #fff;
+            padding: 10px 16px;
+            position: absolute;
+            top: 60%;
+            left: 7%;  
+            &--title{
+                font-size: 13px;
+                line-height: 22px;
+            }
+            &--paragraph{
+                font-size: 12px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 648px) {
+    .container{
+        width: 100%;
+        max-width: 628px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 650px;
+        &__boxes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+@media screen and (max-width: 440px) {
+    .container{
+        width: 100%;
+        max-width: 420px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 1050px;
+        &__boxes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__box{
+            &--img{
+                width: 310px;
+                height: 230px;
+                padding: 5px;
+            }
+        }
+        &__words{
+            width: 280px;
+            height: 110px;
+            background-color: #fff;
+            padding: 10px 16px;
+            position: absolute;
+            top: 75%;
+            left: 5%;  
+            &--title{
+                font-size: 13px;
+                line-height: 22px;
+            }
+            &--paragraph{
+                font-size: 12px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 310px) {
+    .container{
+        width: 100%;
+        max-width: 290px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 990px;
+        &__boxes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__box{
+            &--img{
+                width: 240px;
+                height: 200px;
+                padding: 5px;
+            }
+        }
+        &__words{
+            width: 210px;
+            height: 120px;
+            background-color: #fff;
+            padding: 10px 16px;
+            position: absolute;
+            top: 75%;
+            left: 6%;  
+            &--title{
+                font-size: 13px;
+                line-height: 22px;
+            }
+            &--paragraph{
+                font-size: 12px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 240px) {
+    .container{
+        width: 100%;
+        max-width: 220px;
+        padding: 0 10px;
+    }
+    .subscribe{
+        height: 1050px;
+        &__boxes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__box{
+           margin-bottom: 160px;
+            &--img{
+                width: 170px;
+                height: 150px;
+               
+            }
+        }
+        &__words{
+            width: 150px;
+            height: 190px;
+            background-color: #fff;
+            padding: 10px 16px;
+            position: absolute;
+            top: 75%;
+            left: 6%;  
+            &--title{
+                font-size: 13px;
+                line-height: 22px;
+            }
+            &--paragraph{
+                font-size: 12px;
+                line-height: 22px;
             }
         }
     }

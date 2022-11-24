@@ -9,7 +9,7 @@ const Card = ({ card }) => {
     <>
       <div className="card">
         <img src={img} alt="" className="card--img" />
-        <NavLink to="/category">
+        <NavLink to="/clothes" style={{ color: "#000", opacity: 0.8 }}>
           <p className="card__title">{card?.content}</p>
         </NavLink>
         <div className="card__rating">

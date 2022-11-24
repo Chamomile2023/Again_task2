@@ -4,6 +4,7 @@ import BasicPage from "../BasicPage/BasicPage";
 import { JsonContext } from "../Context/JsonData/JsonData";
 import MenHeaderPage from "../MenHeaderPage/MenHeaderPage";
 import WomenHeaderPage from "../WomenHeaderPage/WomenHeaderPage";
+import Features from "../Features/Features";
 
 const RouteAll = () => {
   return (
@@ -13,6 +14,7 @@ const RouteAll = () => {
           <Route path="/" exact element={<BasicPage />} />
           <Route path="/women" element={<WomenHeaderPage />} />
           <Route path="/men" element={<MenHeaderPage />} />
+          <Route path="/clothes" element={<Features />} />
         </Routes>
       </JsonContext.Provider>
     </>
